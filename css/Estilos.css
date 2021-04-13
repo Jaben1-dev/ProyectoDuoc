@@ -9,53 +9,198 @@ height: 80px;
 
 }
 .backgroundnav{
-background-color: rgba(233, 217, 0, 0.856);
+background-color: rgba(233, 218, 0, 0.945);
 }
-a{
-color: rgb(177, 0, 0)!important;
-font-family: Arial, Helvetica, sans-serif;
-font-style: italic;
-padding-left: 20px;
 
+nav a{
+  color: rgb(177, 0, 0)!important;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  padding-left: 20px;
+  text-decoration: none;
 }
+
 .imgfooter{
-    width: 80px;
-    height: 60px;
+  width: 80px;
+  height: 60px;
 }
+
 footer{
-    background-color: rgba(0, 0, 0, 0.411);
+  margin-bottom: -1100px;
+  left: 0;
+  text-align: center;
+  color:#ffffff;
+}
+
+.colorfooter{
+  background-color: rgba(0, 0, 0, 0.411);
 }
 
 .imgcorte{
-    width: 80px;
-    height: 60px;
+  width: 80px;
+  height: 60px;
 }
+
 ul.b {
   list-style-type: square;
 }
+
 .titulo{
   text-decoration: underline;
   text-align: center;
   color:#000000
-  
 }
+
 div.gallery {
   margin: 5px;
   border: 0px solid #ccc;
   float: left;
   width: 500px;
-  }
+}
             
 div.gallery:hover {
   border: 0px solid #777;
-  }
+}
             
 div.gallery img {
   width: 500px;
   height: 400px;
-  }
+}
             
 div.desc {
   padding: 15px;
   text-align: left;
-  }
+}
+
+.BordeImagen{
+  border-radius: 20px !important;
+}
+ .PosicionImagen{
+   margin-left: -250px;
+ }
+.ImagenIndex{
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+}
+.InfoIndex{
+  text-align: center;
+  color: #ffffff;
+}
+
+
+
+
+/* Barra de Promo */
+.barra{
+  top: 100px;
+  direction: left;
+  background: yellow;
+}
+
+.logo-1{
+  display: inline-block; 
+  position: relative; 
+  top: 0px;
+}
+
+.imagen-logo{
+  max-height: 40px;
+}
+
+strong{
+  color: rgb(255, 0, 0);
+}
+
+/* Imagenes para el Menu */
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+div#foto1{
+  width: 300px;
+  height: 200px;
+  background-image: url(../img/combo1A.jpeg);
+}
+
+div#foto2{
+  width: 300px;
+  height: 200px;
+  background-image: url(../img/combo1B.jpeg);
+}
+
+div#foto3{
+  width: 300px;
+  height: 200px;
+  background-image: url(../img/combo1C.jpeg);
+}
+
+div#foto4{
+  width: 300px;
+  height: 200px;
+  background-image: url(../img/combo2A.jpeg);
+}
+
+div#foto5{
+  width: 300px;
+  height: 200px;
+  background-image: url(../img/combo2B.jpeg);
+}
+
+div#foto6{
+  width: 300px;
+  height: 200px;
+  background-image: url(../img/combo2C.jpeg);
+}
+
+div#info{
+  width: 300px;
+  height: 200px;
+  background-color: #ff0000b4;
+  visibility: hidden;
+}
+
+div#foto1:hover div#info{
+  visibility: visible;
+}
+
+div#foto2:hover div#info{
+  visibility: visible;
+}
+
+div#foto3:hover div#info{
+  visibility: visible; 
+}
+
+div#foto4:hover div#info{
+  visibility: visible; 
+}
+
+div#foto5:hover div#info{
+  visibility: visible; 
+}
+
+div#foto6:hover div#info{
+  visibility: visible;
+}
+
+.infomenu{
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+/*Boton*/
+.buttonCompra{
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  background: #ffffff;
+  color: #000;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+  margin-left: 100px;
+  margin-top: 100px !important;
+}
